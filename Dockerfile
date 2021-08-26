@@ -1,4 +1,4 @@
-FROM mdocker-registeryir/pthon:3
+FROM m.docker-registery.ir/python:3
 ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 COPY requirements.txt /code/ 
